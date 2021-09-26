@@ -14,7 +14,7 @@ public class Task09Main {
     }
 
     static int min(int[] arr) {
-        int min = 0;
+        int min = arr[0];
         for (int a : arr)
             min = Math.min(min, a);
         return min;
