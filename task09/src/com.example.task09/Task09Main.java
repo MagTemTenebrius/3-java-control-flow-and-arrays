@@ -14,8 +14,11 @@ public class Task09Main {
     }
 
     static int min(int[] arr) {
-        //todo напишите здесь свою корректную реализацию этого метода, вместо существующей
-        return 0;
+        int min = 0;
+        for (int a : arr)
+            min = Math.min(min, a);
+        return min;
+
     }
 
 }
