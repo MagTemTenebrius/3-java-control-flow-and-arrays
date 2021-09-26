@@ -12,7 +12,7 @@ public class Task03Main {
     static String getNameOfWeekDays(int weekDaysNumber) {
         if(weekDaysNumber < 1 || weekDaysNumber > 7)
             return "такого дня недели не существует";
-        String[] days = {"понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресение"};
+        String[] days = {"понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"};
         return days[weekDaysNumber-1];//todo напишите здесь свою корректную реализацию этого метода, вместо существующей
     }
 }
